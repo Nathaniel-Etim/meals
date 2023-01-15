@@ -50,7 +50,7 @@ export async function getStaticPaths() {
 
   client.close();
   return {
-    fallback: true,
+    fallback: "blocking",
     paths: meal.map((meal) => {
       return {
         params: {
