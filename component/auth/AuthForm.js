@@ -1,5 +1,5 @@
 import React from "react";
-import classes from "./authform.module.css";
+import classes from "./authForm.module.css";
 import { useRouter } from "next/router";
 import useBasicHook from "../auth/Auth";
 import { useState } from "react";
