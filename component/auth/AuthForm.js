@@ -78,9 +78,7 @@ const AuthForm = () => {
       } else {
         response.json().then((data) => {
           setIsLoading(false);
-          alert(
-            `error ${data.error.code} ${data.error.message} pls try loging in`
-          );
+          alert(`error ${data.error.code} ${data.error.message} `);
         });
       }
     });
