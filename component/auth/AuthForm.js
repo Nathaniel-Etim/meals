@@ -45,13 +45,11 @@ const AuthForm = () => {
     setIsLoading(true);
 
     if (!formHasError) {
-      setError(`check input and submit again`);
-      console.log(error);
-      return;
+      alert("use valid data input ");
+      setIsLoading(false);
     }
 
     if (isLogin) {
-      console.log("signup");
       url =
         " https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=AIzaSyAlWveUg0aFYUGO0w96K2DpgK3v6-z8a20";
     } else {
@@ -79,7 +77,6 @@ const AuthForm = () => {
         return res;
       } else {
         response.json().then((data) => {
-          console.log(data.error);
           setIsLoading(false);
           alert(
             `error ${data.error.code} ${data.error.message} pls try loging in`

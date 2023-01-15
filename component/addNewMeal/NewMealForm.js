@@ -114,7 +114,7 @@ const NewMealForm = (props) => {
         <label className={classes.labelArea}> Image </label>
         {imageHasNoError && (
           <div className={classes.errormessagecontainer}>
-            <p className={classes.errormessage}> image can't be keft empty </p>
+            <p className={classes.errormessage}> image can't be left empty </p>
           </div>
         )}
         <input
@@ -129,7 +129,7 @@ const NewMealForm = (props) => {
         <label className={classes.labelArea}> Address </label>
         {addressHasNoError && (
           <div className={classes.errormessagecontainer}>
-            <p className={classes.errormessage}> Invalid Details </p>
+            <p className={classes.errormessage}> Invalid Detail </p>
           </div>
         )}
         <input
@@ -144,7 +144,7 @@ const NewMealForm = (props) => {
         <label className={classes.labelArea}> Price </label>
         {PriceHasNoError && (
           <div className={classes.errormessagecontainer}>
-            <p className={classes.errormessage}> Invalid Details </p>
+            <p className={classes.errormessage}> insert a figure </p>
           </div>
         )}
         <input

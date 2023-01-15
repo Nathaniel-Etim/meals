@@ -18,12 +18,7 @@ const index = () => {
     setIsLoading(false);
   }
 
-  return (
-    <>
-      {/* { <div> LOADING ....</div>} */}
-      {<NewMeal onAddMeal={addNewNealHandelerFn} />}
-    </>
-  );
+  return <>{<NewMeal onAddMeal={addNewNealHandelerFn} />}</>;
 };
 
 export default index;

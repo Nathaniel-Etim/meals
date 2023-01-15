@@ -19,7 +19,7 @@ const index = (props) => {
             </div>
             <div className={classes.content}>
               <h3>{props.mealData?.title} </h3>
-              <h2>{props.mealData?.price} </h2>
+              <h2>${props.mealData?.price} </h2>
               <address> {props.mealData?.address} </address>
             </div>
             <div className="actions">
