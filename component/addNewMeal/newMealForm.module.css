@@ -1,0 +1,57 @@
+.formContainer {
+  padding: 2rem;
+  margin: 0;
+  box-sizing: border-box;
+  /* font-family: 'Times New Roman', Times, serif; */
+  /* font-family: "Courier New", Courier, monospace; */
+  /* font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif; */
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 1rem 0;
+}
+
+.Name {
+  color: gray;
+  font-size: xx-large;
+}
+
+.errormessagecontainer {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.errormessage {
+  font-size: x-small;
+  font-weight: 100;
+  color: red;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 0.21rem;
+}
+
+.labelArea {
+  font-weight: 400;
+  font-size: larger;
+}
+
+.inputArea {
+  height: 2rem;
+  border: 1px solid #77002e;
+  background-color: transparent;
+  outline-style: none;
+  font-size: 300;
+  padding: 0 4px;
+}
+
+.btncontainer {
+  display: flex;
+  justify-content: center;
+  padding: 2rem 0 0 0;
+}

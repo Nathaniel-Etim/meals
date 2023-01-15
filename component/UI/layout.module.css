@@ -1,0 +1,54 @@
+.layoutContainer {
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+  align-items: center;
+}
+
+.logo {
+  color: gray;
+  font-size: xx-large;
+  cursor: pointer;
+}
+
+.listItem {
+  display: flex;
+  align-items: center;
+}
+
+.listItem li {
+  display: flex;
+  width: 20rem;
+  justify-content: space-around;
+  font-size: small;
+  color: rgba(128, 128, 128, 0.5);
+}
+
+.cartNumber {
+  background-color: burlywood;
+  border-radius: 4rem;
+}
+
+.listItem li ul {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .layoutContainer {
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 0.5rem;
+    align-items: center;
+  }
+
+  .listItem li {
+    display: flex;
+    width: 20rem;
+    justify-content: space-around;
+    font-size: small;
+    color: rgba(128, 128, 128, 0.5);
+  }
+}
